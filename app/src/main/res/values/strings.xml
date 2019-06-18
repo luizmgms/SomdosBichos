@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Som dos Bichos</string>
+    <string name="logo_str">Som dos Bichos</string>
+    <string name="cao_str">Cão</string>
+    <string name="gato_str">Gato</string>
+    <string name="leao_str">Leão</string>
+    <string name="macaco_str">Macaco</string>
+    <string name="ovelha_str">Ovelha</string>
+    <string name="vaca_str">Vaca</string>
+    <string name="direitos">freepik.com</string>
+    <string name="galinha">Galinha</string>
+    <string name="pintinho">Pintinho</string>
+    <string name="baleia">Baleia</string>
+    <string name="golfinho">Golfinho</string>
+    <string name="direitos_desc">Todos os direitos reservados</string>
+    <string name="elefante">Elefante</string>
+    <string name="pato">Pato</string>
+    <string name="porco">Porco</string>
+    <string name="sapo">Sapo</string>
+    <string name="rato">Rato</string>
+    <string name="passaro">Pássaro</string>
+    <string name="cavalo">Cavalo</string>
+    <string name="galo">Galo</string>
+    <string name="abelha">Abelha</string>
+</resources>

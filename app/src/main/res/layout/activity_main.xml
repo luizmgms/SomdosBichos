@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5e9b9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:contentDescription="@string/logo_str"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/direitosId"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/direitos_desc"
+        android:src="@drawable/direitos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoId">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/padding_table_row"
+                android:paddingLeft="@dimen/padding_table_row"
+                android:paddingTop="@dimen/padding_table_row"
+                android:paddingRight="@dimen/padding_table_row"
+                android:paddingBottom="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/caoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/cao_str"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/cao"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="97dp" />
+
+                <ImageView
+                    android:id="@+id/gatoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/gato_str"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/gato" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:paddingLeft="@dimen/padding_table_row"
+                android:paddingRight="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/leaoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/leao_str"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/leao" />
+
+                <ImageView
+                    android:id="@+id/macacoId"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/macaco_str"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/macaco"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="193dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:padding="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/vacaId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/vaca_str"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/vaca" />
+
+                <ImageView
+                    android:id="@+id/ovelhaId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/ovelha_str"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/ovelha" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:padding="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/elefanteId"
+                    android:layout_width="114dp"
+                    android:layout_height="114dp"
+                    android:layout_marginStart="@dimen/padding_table_row"
+                    android:layout_marginLeft="@dimen/padding_table_row"
+                    android:contentDescription="@string/elefante"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/elefante"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="309dp" />
+
+                <ImageView
+                    android:id="@+id/patoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/pato"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/pato" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:padding="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/porcoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/porco"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/porco" />
+
+                <ImageView
+                    android:id="@+id/abelhaId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/abelha"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/abelha" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:padding="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/galoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/galo"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/galo"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="391dp" />
+
+                <ImageView
+                    android:id="@+id/galinhaId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/galinha"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/galinha" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pintinhoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/pintinho"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/pintinho" />
+
+                <ImageView
+                    android:id="@+id/baleiaId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/baleia"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/baleia" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:padding="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/golfinhoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/golfinho"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/golfinho" />
+
+                <ImageView
+                    android:id="@+id/cavaloId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/cavalo"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/cavalo" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:padding="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/passaroId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/passaro"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/passaro" />
+
+                <ImageView
+                    android:id="@+id/ratoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/rato"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/rato" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_table_row"
+                android:padding="@dimen/padding_table_row">
+
+                <ImageView
+                    android:id="@+id/sapoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_table_row"
+                    android:contentDescription="@string/sapo"
+                    android:padding="@dimen/padding_table_row"
+                    android:src="@drawable/sapo" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
